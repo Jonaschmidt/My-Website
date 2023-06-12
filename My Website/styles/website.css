@@ -1,0 +1,49 @@
+button{
+    cursor: pointer;
+}
+
+hr{
+    width: "75%";
+    color: "red";
+}
+
+.banner{
+    grid-template-columns: 1fr;
+
+    margin-bottom: 25px;
+
+    height: 100px;
+
+    text-align: center;
+
+    background-color: dodgerblue;
+}
+
+.my_links_b{
+    margin-top: 10px;
+    
+    width: 75px;
+
+    text-align: left;
+
+    transition: width 0.5s, padding 0.5s;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: hidden;
+    border-radius: 10px;
+
+    background-color: dodgerblue;
+    color: white;
+}
+.my_links_b:hover{
+    width: 100px;
+
+    padding-right: 40px;
+
+    background-color: rgb(85, 175, 210);
+}
