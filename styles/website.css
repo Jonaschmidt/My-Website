@@ -1,0 +1,54 @@
+button{
+    cursor: pointer;
+}
+
+.banner{
+    font-family: 'Rock 3D', cursive;
+    font-size: 100px;
+
+    grid-template-columns: 1fr;
+
+    margin-bottom: 25px;
+
+    height: 150px;
+
+    text-align: center;
+
+    background-color: dodgerblue;
+}
+
+.my_links_b{
+    margin-top: 10px;
+    
+    width: 150px;
+
+    text-align: left;
+
+    transition: width 0.5s, padding 0.5s;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: hidden;
+    border-radius: 10px;
+
+    background-color: dodgerblue;
+    color: white;
+}
+.my_links_b:hover{
+    width: 125px;
+
+    padding-right: 40px;
+
+    background-color: rgb(85, 175, 210);
+}
+
+.gallery_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+}
