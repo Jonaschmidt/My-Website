@@ -3,18 +3,35 @@ button{
 }
 
 .banner{
-    font-family: 'Rock 3D', cursive;
-    font-size: 100px;
-
     grid-template-columns: 1fr;
 
-    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 
-    height: 150px;
+    height: 200px;
 
     text-align: center;
 
-    background-color: dodgerblue;
+    border-radius: 15px;
+
+    background-color: rgb(204 255 204);
+}
+
+.banner_words{
+    margin-top: 0px;
+
+    font-family: 'Rampart One', Arial;
+    font-size: 100px;
+}
+.banner_words span{
+    margin-left: -15px;
+    margin-right: -15px;
+
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.banner_words span:hover{
+    transform: translateY(-10px)
 }
 
 .my_links_b{
@@ -44,6 +61,11 @@ button{
     padding-right: 40px;
 
     background-color: rgb(85, 175, 210);
+}
+
+.about_me{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
 }
 
 .gallery_heading{
