@@ -14,7 +14,7 @@ button{
 
     border-radius: 15px;
 
-    background-color: rgb(204 255 204);
+    background-color: rgb(200 255 200);
 }
 
 .banner_words{
@@ -32,6 +32,17 @@ button{
 }
 .banner_words span:hover{
     transform: translateY(-10px)
+}
+
+.banner_menu{
+    cursor: pointer;
+
+    margin-bottom: 0px;
+
+    font-family: Arial;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .my_links_b{
