@@ -10,22 +10,52 @@
         <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="banner" style="grid-template-rows: 1fr;
-                    display:grid"> 
-            <div class="banner_words">
-                <span>j</span>
-                <span>o</span>
-                <span>n</span>
-                <span>a</span>
-                <span>s</span>
-                <span style="margin-left: 35px"></span>
-                <span>s</span>
-                <span>c</span>
-                <span>h</span>
-                <span>m</span>
-                <span>i</span>
-                <span>d</span>
-                <span>t</span>
+        <div class="banner" style="grid-template-rows: 1fr 1fr;
+                    display:grid">
+            <div style="grid-template-columns: 100px 10fr; display:grid">
+                <div>
+                    <div>
+                        <div>
+                            <button class="my_links_b" 
+                                    onclick="location.href='https://github.com/Jonaschmidt'">
+                                Github
+                            </button>
+                        </div>
+                        <div>
+                            <button class="my_links_b" 
+                                    onclick="location.href='https://www.linkedin.com/in/jonas-schmidt-0259a7246/'">
+                                LinkedIn
+                            </button>
+                        </div>
+                        <div>
+                            <button class="my_links_b" 
+                                    onclick="location.href='https://www.artstation.com/jonasjonasjonas'">
+                                Artstation
+                            </button>
+                        </div>
+                        <div>
+                            <button class="my_links_b"
+                                    onclick="window.open(location.href='Jonas Schmidt Resume 2023.pdf', '_blank')">
+                                Resume
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_words">
+                    <span>j</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>a</span>
+                    <span>s</span>
+                    <span style="margin-left: 35px"></span>
+                    <span>s</span>
+                    <span>c</span>
+                    <span>h</span>
+                    <span>m</span>
+                    <span>i</span>
+                    <span>d</span>
+                    <span>t</span>
+                </div>
             </div>
             <div class="banner_menu" style="grid-template-columns: 1fr 1fr 1fr;
                         display:grid">
@@ -38,30 +68,11 @@
                 <div style="margin: 0 auto; width:100px; height: 10px; background-color: black;"></div>
             </div>
         </div>
-        <div style="grid-template-columns: 1fr 4fr;
-                    display:grid;">
+        <div style="grid-template-columns: 1fr 3fr;
+                    display:grid; margin-bottom: 50px; margin-top: 50px;">
             <div>
-                <p>
-                    My links:
-                </p>
-                <div>
-                    <button class="my_links_b medium_rounded blue" 
-                            onclick="location.href='https://github.com/Jonaschmidt'">
-                        Github
-                    </button>
-                </div>
-                <div>
-                    <button class="my_links_b medium_rounded blue" 
-                            onclick="location.href='https://github.com/Jonaschmidt'">
-                        Github
-                    </button>
-                </div>
-                <div>
-                    <button class="my_links_b medium_rounded blue" 
-                            onclick="location.href='https://github.com/Jonaschmidt'">
-                        Github
-                    </button>
-                </div>
+                <img src="images/photo_me.png"
+                     style="height: 300px; margin-left: 75px; border-radius: 20px;">
             </div>
             <div class="about_me">
                 About me:
@@ -74,7 +85,7 @@
                     part of his "Emerging Computing Technologies" lab.
                 </p>
                 <p>
-                    This website was made entirely by me using html and CSS.
+                    This website was made entirely by me using html and CSS. Source code is on my Github page.
                 </p>
             </div>
         </div>
